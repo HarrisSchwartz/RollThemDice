@@ -1,0 +1,29 @@
+{
+  "name": "ROLL THEM DICE",
+  "version": "0.0.1",
+  "private": true,
+  "description": "The best dice-rolling PWA in town",
+  "main": "app.js",
+  "keywords": [
+    "spa",
+    "pwa"
+  ],
+  "author": {
+    "name": "Schwartz, Harris",
+    "email": "hfschwartz21@gmail.com"
+  },
+  "scripts": {
+    "start": "node ./bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarrisSchwartz/Dicer"
+  },
+  "engines": {
+    "node": ">= 7.2.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "latest"
+  }
+}

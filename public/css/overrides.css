@@ -1,0 +1,33 @@
+h1.title {
+  margin-bottom: 1px;
+  margin-top: 1px; }
+
+h2 {
+  padding-bottom: 0; }
+
+.dice-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  transform: rotate(0deg); }
+
+.label-die-sides {
+  background: lightcoral;
+  color: white;
+  margin-left: 8px;
+  margin-right: 8px; }
+
+.rb-space {
+  margin-right: 15px;
+  margin-left: 12px; }
+
+.inp {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: lightcoral;
+  padding: 6px;
+  color: white; }
+
+/*# sourceMappingURL=overrides.css.map */
