@@ -30,4 +30,7 @@ h2 {
   padding: 6px;
   color: white; }
 
+.background {
+  background: -webkit-linear-gradient(top, #1e5799 0%, rgba(125, 185, 232, 0) 100%); }
+
 /*# sourceMappingURL=overrides.css.map */
