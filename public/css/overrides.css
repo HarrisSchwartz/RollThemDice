@@ -13,24 +13,58 @@ h2 {
   transform: rotate(0deg); }
 
 .label-die-sides {
-  background: lightcoral;
+  background: transparent;
   color: white;
-  margin-left: 8px;
-  margin-right: 8px; }
-
-.rb-space {
-  margin-right: 15px;
-  margin-left: 12px; }
+  margin-left: 3px;
+  margin-right: 3px; }
 
 .inp {
   font-family: Georgia;
   font-weight: bold;
-  font-size: 18px;
-  background-color: lightcoral;
-  padding: 6px;
+  font-size: 28px;
+  background-color: transparent;
   color: white; }
 
 .background {
-  background: -webkit-linear-gradient(top, #1e5799 0%, rgba(125, 185, 232, 0) 100%); }
+  background: lightcoral; }
+
+.background2 {
+  background: lightskyblue;
+  border-radius: 12px;
+  border: white solid 10px;
+  border-style: double;
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.success-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 20px; }
+
+.resultBoxLeft {
+  margin-left: 45px; }
+
+.resultBoxRight {
+  margin-right: 45px; }
+
+.die-type {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia; }
+
+.die-center {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 180px; }
+
+.slider-text {
+  font-size: 20px;
+  font-family: Georgia;
+  color: white; }
+
+.result {
+  font-size: 28px;
+  color: white;
+  font-family: Georgia; }
 
 /*# sourceMappingURL=overrides.css.map */

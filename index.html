@@ -23,96 +23,139 @@
     </div>
     <br><br>
     <div class="row">
-        <div class="medium-5 columns text-right vertical-center">
+        <div class="medium-20 columns text-center vertical-center">
             <span class="inp vertical-center">How many dice would you like to roll?</span>
         </div>
-        <div class="medium-2 columns text-left end vertical-center">
-            <input type="text" id="coachId" name="coachId">
-        </div>
     </div>
+    <br>
     <div class="row">
-        <div class="medium-12 column medium-centered text-center">
-            <img class="dice-image" src="public/images/golddice2.png" width="90px" height="10px">
-            <img class="dice-image" src="public/images/golddice2.png" width="90px" height="10px">
-            <img class="dice-image" src="public/images/golddice2.png" width="90px" height="10px">
-            <img class="dice-image" src="public/images/golddice2.png" width="90px" height="10px">
-        </div>
+    <div class="medium-20 columns text-center">
+        <input type="range" min="1" max="10" value="1" step="1" id="slider">
+        <span id="numdice" class="slider-text"></span>
     </div>
+    </div>
+    <br>
     <div class="row">
         <div class="medium-5 columns text-center medium-centered">
             <span class="inp label vertical-center">How many sides?</span>
         </div>
     </div>
     <br>
-    <div class="row">
-        <div class="medium-20 columns text-center end">
-            <input type="radio" name="radio button" class="rb-space" id="4">
-            <input type="radio" name="radio button" class="rb-space" id="6">
-            <input type="radio" name="radio button" class="rb-space" id="10">
-            <input type="radio" name="radio button" class="rb-space" id="12">
-            <input type="radio" name="radio button" class="rb-space" id="20">
-            <input type="radio" name="radio button" class="rb-space" id="30">
-            <input type="radio" name="radio button" class="rb-space" id="50">
-            <input type="radio" name="radio button" class="rb-space" id="60">
-            <input type="radio" name="radio button" class="rb-space" id="100">
-            <input type="radio" name="radio button" class="rb-space" id="120">
+    <div class="row medium-7 columns die-center" id="dieType">
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d4" value="4">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d6" value="6">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d8" value="8">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d10" value="10">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d12" value="12">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d20" value="20">
+        </div>
+        <div class="medium-1 columns ">
+            <input type="radio" name="dieType" id="d100" value="100">
         </div>
     </div>
-    <div class="row">
-        <div class="medium-20 columns medium-centered text-center">
-            <span class="label label-die-sides">4</span>
-            <span class="label label-die-sides">6</span>
-            <span class="label label-die-sides">10</span>
-            <span class="label label-die-sides">12</span>
-            <span class="label label-die-sides">20</span>
-            <span class="label label-die-sides">30</span>
-            <span class="label label-die-sides">50</span>
-            <span class="label label-die-sides">60</span>
-            <span class="label label-die-sides">100</span>
-            <span class="label label-die-sides">120</span>
+    <div class="row medium-7 columns medium-centered die-center">
+        <div class="medium-1 columns ">
+            <h5 class="die-type">4</h5>
         </div>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">6</h5>
         </div>
-    <br>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">8</h5>
+        </div>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">10</h5>
+        </div>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">12</h5>
+        </div>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">20</h5>
+        </div>
+        <div class="medium-1 columns ">
+            <h5 class="die-type">100</h5>
+        </div>
+        <br><br>
+        </div>
+    <div>
     <div class="row">
         <div class="medium-8 columns medium-centered">
-            <div class="success button expanded" id="roll">ROLL!!!!</div>
+            <div class="success button expanded success-text" id="roll">ROLL...THEM...DICE!!!!</div>
         </div>
     </div>
 </div>
+    </div>
 <div id="rollgif" class="row">
-    <div class="medium-8 columns medium-centered">
-    <img class="dice-image" src="public/images/dicerollgif%202.gif" width="90px" height="10px">
+    <div class="medium-8 columns medium-centered text-center">
+    <img class="dice-image" src="public/images/dicerollgif%202.gif" width="600px">
     </div>
 </div>
+<div id="rollgif2" class="row">
+    <div class="medium-8 columns medium-centered text-center">
+        <img class="dice-image" src="public/images/rolling-dice-gif-3 2.gif" width="250px">
+        <img class="dice-image" src="public/images/rolling-dice-gif-3 2.gif" width="250px">
+    </div>
+</div>
+<div id="rollgif3" class="row">
+    <div class="medium-8 columns medium-centered text-center">
+        <img class="dice-image" src="public/images/golddice1.png" width="100px">
+    </div>
+</div>
+<div id="rollgif4" class="row">
+    <div class="medium-8 columns medium-centered text-center">
+        <img class="dice-image" src="public/images/dice.png" width="600px">
+    </div>
+</div>
+<div id="rollgif5" class="row">
+    <div class="medium-8 columns medium-centered text-center">
+        <img class="dice-image" src="public/images/dice.png" width="600px">
+    </div>
+</div>
+<div id="bottom">
 <div id="results">
     <div class="row" id="results1">
         <div class="medium-8 columns medium-centered">
-            <h2 class="text-center">Results!</h2>
+            <h2 class="inp text-center">Results!</h2>
         </div>
     </div>
-    <div class="row" id="results2">
-        <form id="theForm">
-            <div class="medium-5 columns text-right">
-                <input type="radio" name="question" id="yes" value="1">
-            </div>
-            <div class="medium-5 columns text-left">
-                <input type="radio" name="question" id="no" value="0">
-            </div>
-        </form>
-    </div>
-    <div class="row" id="sure3">
-        <div class="medium-5 columns text-right">
-            <h5 class="label">Yes</h5>
+    <br>
+    <br>
+    <div class="row text-center">
+        <div class="medium-5 columns float-left background2 resultBoxLeft">
+            <h5 class="inp text-center" id="indivs">Individual value(s)</h5>
+            <span class="text-center result" id="indivResults"></span>
         </div>
-        <div class="medium-5 columns text-left">
-            <h5 class="label">No</h5>
+        <div class="medium-5 columns float-right background2 resultBoxRight">
+            <h5 class="inp text-center" id="sum">Sum</h5>
+            <span class="text-center result" id="sumResults"></span>
         </div>
     </div>
 </div>
+    <br>
+    <br>
+<div class="row">
 <div class="row" id="redo">
     <div class="medium-8 columns medium-centered">
-        <div class="alert button expanded" id="end">End</div>
+        <div class="warning button expanded success-text" id="redobutton">Roll Again!</div>
     </div>
+</div>
+<div class="row" id="newRoll">
+    <div class="medium-8 columns medium-centered">
+        <div class="alert button expanded success-text" id="newRollbutton">New roll</div>
+    </div>
+</div>
+</div>
 </div>
 
 <!-- SCRIPTS -->
